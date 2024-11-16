@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Pokemon";
+  src: url(PokemonGb-RAeo.ttf);
+}
+html {
+  background-color: white;
+}
+body {
+  margin: 0;
+}
+header {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  background-color: red;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  justify-content: space-evenly;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "Pokemon";
+  transition: color 0.3s ease;
+}
+a:hover {
+  color: black;
+}
+.searchbar input {
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+.searchbar input:focus {
+  border-color: black;
+  outline: none;
+}
+button {
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  border: none;
+  align-items: center;
+  font-family: "Pokemon";
+  font-size: 10px;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+button:hover {
+  transform: scale(1.1);
+}
+button img {
+  margin-right: 10px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
